@@ -1,0 +1,217 @@
+{
+ "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "李文强 - 个人简历",
+  "name": "李文强",
+  "repo": "https://github.com/HaviLee",
+  "job_description": ["iOS开发工程师"],
+  "contact": {
+    "phone": "13122785292",
+    "email": "havi_mini_program@163.com",
+    "wechat": {
+      "id": "Havi_li",
+      "qrcode": "static/wechat.jpeg"
+    },
+    "sinaweibo": {
+      "id": "Havi_li",
+      "url": "https://weibo.com/u/3951119213"
+    },
+    "github": {
+      "id": "HaviLee"
+    },
+    "blog": {
+      "url": "https://zhuanlan.zhihu.com/c_168766156"
+    },
+    "blog": {
+      "url": "https://zhuanlan.zhihu.com/iOSskill"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/HaviLee"
+
+  }, {
+    "type": "pdf",
+    "url": "static/havi.pdf"
+
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "河南科技学院（本科）",
+    "major": "数学与应用数学",
+    "start": "2009",
+    "end": "2013",
+    "honor": [
+      "曾获 **国家级一级奖学金**",
+      "曾获 **院校级奖学金**",
+      "2011/12       **”英才杯“大学生数学竞赛 [院校级]**",
+      "2011/11       **全国大学生数学竞赛 [省区级] **",
+      "2011/09       **全国大学生数学建模竞赛 [省区级] **"
+    ]
+  }
+  ],
+  "language": [
+    {
+    "type": "chinese",
+    "certificate": [{
+      "type": "普通话",
+      "full": "100",
+      "score": "二级甲等"
+    }],
+    "description": []
+  },
+  {
+    "type": "english",
+    "certificate": [{
+      "type": "CET-4",
+      "full": "750",
+      "score": "530"
+    }],
+    "description": [
+      "熟练使用谷歌进行英文检索，自行解决问题",
+      "流畅阅读英文专业书籍、文档",
+      "能够在 Stack Overflow、Github 等社区正常进行英文交流"
+    ]
+  }],
+  "experience": [ {
+    "type": "project",
+    "project_type": "disney",
+    "name": "迪士尼度假区App开发",
+    "demo": "https://itunes.apple.com/cn/app/上海迪士尼度假区/id1073826118?mt=8",
+    "description": [
+      "主导完成 `Payment Project` -- 负责开发迪士尼度假区支付模块。将之前直接集成在BaseApp里面的 `AliPay` 进行二次封装，抽离成为一个 `framework`，将之前的支付业务逻辑抽离成一个支付模块,同时集成 `银联`、`国际卡`支付，方便后面多个模块调用支付模块和扩展其它支付方式。",
+      "主导完成 `PushNotification Project` -- 负责迪士尼度假区App推送模块开发设计。将推送业务单独封装为一个 `PushNotificationKit`, 在kit中对推送的内容进行解析，然后通过Deeplink跳转到指定的界面。结合 `高德` 地图的 `LBS`功能，实现区域推送，并支持后台持续定位推送。",
+      "参与完成 `FastPass/DPA(Disney Premier Access) Project`，-- FP项目是帮助到迪士尼乐园的用户可以在手机端进行购买快速通行证，包括免费通行证和付费通行证，此项目使用 `Swift 3.2` 进行开发，并且在BaseApp进行 `OC-Swift` 混编。",
+      "负责 `Disney App CICD` -- 一阶段使用 `Jenkins` 结合 第三方测试分发平台`hockeyApp`,实现自动编译、打包、上传到测试平台并邮件通知测试人员，以及在 `Slack` 中通知自动化打包结果。二阶段为了优化jenkins脚本，结合了 `fastlane` 可以更好实现多个环境切换打包。",
+      "作为 `Scrum Master` 带领技术团队使用 `Scrum` 开发5.5版本,和 `PM、PA、QA` 讨论需求，确定需求范围，根据需求计算iOS/Android开发工时，制定 `Release Timeline`"
+    ],
+    "stack": ["项目管理", "Scrum", "产品设计"]
+  }, 
+  {
+    "type": "project",
+    "project_type": "hengqi",
+    "name": "智照护App开发-独自开发",
+    "demo": "https://itunes.apple.com/cn/app/zhi-zhao-hu/id921178759?mt=8&ign-mpt=uo%3D4",
+    "description": [
+      "项目介绍 -- `智照护` App通过智能床垫获取用户的睡眠数据，进行分析，生成睡眠报告，并且可以远程监控用户的睡眠状况",
+      "独立开发设计App,使用 `MVVM`架构，使用纯代码完成界面搭建，支持多语言、推送，实现 `wechat、weibo、QQ` 第三个授权登录及社区分享，`即时通讯` -- 在线就诊问答",
+      "集成 `友盟分析` 实现用户数据分析和日志收集。",
+      "使用到 `YYKit、AFNetWorking、MMProgressHUD` 等第三个库"
+    ],
+    "stack": ["项目管理", "Scrum", "产品设计"]
+  },
+  {
+    "type": "internship",
+    "techtype": "other",
+    "place": "上海恒企信息科技有限公司",
+    "name": "油运宝App开发-独自开发",
+    "start" : "2014.12",
+    "end" : "2017.03",
+    "description": [
+      "项目介绍 -- `油运宝` 分为司机和用户两个客户端。用户端可以在手机端进行油品下单，司机端可以在手机进行接单，司机接单后，用户端可以实时查看油品运输状态。",
+      "独立开发设计App,使用 `MVVM`架构，使用纯代码完成界面搭建，支持多语言、推送，实现 `wechat、weibo、QQ` 第三个授权登录及社区分享，集成 `高德` 实现物流跟踪。",
+      "使用到 `YYKit、AFNetWorking、MMProgressHUD` 等第三个库"
+    ],
+    "stack": ["项目管理", "Scrum", "产品设计"]
+  },
+  {
+    "type": "internship",
+    "techtype": "other",
+    "place": "上海傲蓝信息科技有限公司",
+    "name": "ET剧场",
+    "start" : "2013.06",
+    "end" : "2014.11",
+    "description": [
+      "项目介绍 -- `ET剧场` 一款可以在手机端进行选座订票，进入聚场空间，就可以运用APP、二维码等与演出团队互动，左右剧情发展",
+      "支持推送，实现 `wechat、weibo、QQ` 第三个授权登录及`支付宝、微信、银联` 支付"
+    ],
+    "stack": ["项目管理", "Scrum", "产品设计"]
+  },
+  {
+    "type": "internship",
+    "techtype": "other",
+    "place": "上海傲蓝信息科技有限公司",
+    "name": "微易送",
+    "start" : "2013.06",
+    "end" : "2014.11",
+    "description": [
+      "项目介绍 -- `微易送` 同城快递App,用户在用户端app填写订单，并进行物品拍照，提交订单，快递员端进行接单，并在完成订单后进行用户物品拍照，且要求用户在app上签字上传完成订单。",
+      "集成 `高德` 实时查看快递位置；支持推送，快递完成后告知用户；图片上传功能；"
+    ],
+    "stack": ["项目管理", "Scrum", "产品设计"]
+  },
+  {
+    "type": "project",
+    "techtype": "iOS",
+    "project_type": "work",
+    "name": "Moxi",
+    "demo": "https://github.com/HaviLee/Moxi",
+    "description": [
+      "一款在手机端进行发布民宿信息的App，房主可以在平台上发布房屋出租情况，旅游者可以发布自己的民宿需求，同时可以选择是否进行接机服务。",
+      "灵活选择 `Xib` 与 `Masonry` 配合的方式完成不同需求页面的布局和变化",
+      "支持 `wechat`第三方登录，`Alipay`支付"
+    ],
+    "stack": ["iOS", "CocoaPods"]
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`Objective-C`",
+      "description": [
+        "熟练使用 `Objective-C` 编写 `iOS `应用",
+        "熟练使用 `Xib` 以及 `Storyboard` 进行 UI 上的编写， 也可以使用一些开源的框架类似 `Masonry` 来进行约束的代码配置",
+        "对 `Objective-C` 内存管理机制，runtime、block、gcd、runloop、协议等有一定了解",
+        "熟练使用 `Instruments` 进行内存、效率相关的调试，掌握基本的利用 `Xcode` 的调试技巧",
+        "熟练使用系统相关API，熟练使用 `UIKit` 搭建 iOS 应用",
+        "良好的编码习惯"
+        ]
+    },{
+        "summary": "`Swift`",
+        "description": [
+          "理解并尝试使用 Swift 语言一些新的特性",
+          "对函数式编程范式有一定理解和尝试，在实际项目中尝试使用函数式编程的思想完成一些功能的实现",
+          "了解并能区分 Objective-C 和 Swift 的区别，在实际项目中尽量尝试用 Swift 的思想来完成项目",
+          "在使用 `Swift` 时，在实际项目中尝试多使用结构体、枚举以及面向协议的编程方式",
+          "熟练使用 `Swift-Objective C` 混编"
+        ]
+      },
+    {
+      "summary": "`Xcode`",
+      "description": [
+        "熟练使用 Xcode 进行 iOS 项目开发",
+        "熟练利用 `Instruments` 进行项目调试",
+        "理解并熟练掌握应用 `发布流程、证书机制`",
+        "熟悉使用 Xcode 完成应用的国际化的相关流程"
+      ]
+    }, 
+    {
+      "summary": "` iOS 项目第三方框架`",
+      "description": [
+        "在项目中习惯使用CocoaPods完成第三方依赖，同时也使用过 `CocoaPods` 制作并发布自己的第三方库",
+        "在项目中使用过 `AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、Masonry` 等第三方 Objective-C 库",
+        "在项目中使用过 `Alamofire、Kingfisher、SwiftyJSON、Carthage` 等第三方 Swift 库",
+        "有丰富的集成一些第三方开放平台的经验",
+        "使用第三方API时习惯在外面 `封装一层` 方便日后变更而不影响自身业务代码逻辑"
+      ]
+    }]
+  },
+  {
+    "type": "backend",
+    "item": [{
+      "summary": "`Git`",
+      "description": [
+        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
+        "了解并使用过 Git Flow 工作方法",
+        "熟练使用 Source Tree 图形化 Git 工具"
+      ]
+    },
+    {
+      "summary": "`其他`",
+      "description": [
+        "有 `Scrum Master` 管理经验",
+        "熟练使用 `Carthage、Pods` 进行第三个库管理",
+        "熟悉 `Python`，能够完成简单的 Python 脚本编写"
+      ]
+    }]
+  }]
+}
