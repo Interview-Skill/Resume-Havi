@@ -1,3 +1,6 @@
+# Here is my Resume:
+http://lizitong.ren/resume/
+
 ## My Resume
 
 Read resume data from a JSON file and generate a static web page. GitHub Pages support included.
